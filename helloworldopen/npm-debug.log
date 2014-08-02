@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.23
+3 info using node@v0.11.11-pre
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/pitambar/Coding/projects node juno/helloworldopen',
+5 verbose install   [ 'express', 'socket.io', 'fs', 'jade' ] ]
+6 info preinstall helloworldopen@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'socket.io@*', null ]
+9 verbose cache add name=undefined spec="socket.io@*" args=["socket.io@*",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'socket.io@*',
+10 verbose parsed url   path: 'socket.io@*',
+10 verbose parsed url   href: 'socket.io@*' }
+11 verbose cache add name="socket.io" spec="*" args=["socket.io","*"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '*',
+12 verbose parsed url   path: '*',
+12 verbose parsed url   href: '*' }
+13 verbose addNamed [ 'socket.io', '*' ]
+14 verbose addNamed [ null, '*' ]
+15 verbose cache add [ 'fs@*', null ]
+16 verbose cache add name=undefined spec="fs@*" args=["fs@*",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'fs@*',
+17 verbose parsed url   path: 'fs@*',
+17 verbose parsed url   href: 'fs@*' }
+18 verbose cache add name="fs" spec="*" args=["fs","*"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '*',
+19 verbose parsed url   path: '*',
+19 verbose parsed url   href: '*' }
+20 verbose addNamed [ 'fs', '*' ]
+21 verbose addNamed [ null, '*' ]
+22 verbose already installed skipping jade@* /home/pitambar/Coding/projects node juno/helloworldopen
+23 verbose cache add [ 'express@~3.4.4', null ]
+24 verbose cache add name=undefined spec="express@~3.4.4" args=["express@~3.4.4",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'express@~3.4.4',
+25 verbose parsed url   path: 'express@~3.4.4',
+25 verbose parsed url   href: 'express@~3.4.4' }
+26 verbose cache add name="express" spec="~3.4.4" args=["express","~3.4.4"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '~3.4.4',
+27 verbose parsed url   path: '~3.4.4',
+27 verbose parsed url   href: '~3.4.4' }
+28 verbose addNamed [ 'express', '~3.4.4' ]
+29 verbose addNamed [ null, '>=3.4.4-0 <3.5.0-0' ]
+30 silly lockFile 141fbf03-socket-io socket.io@*
+31 verbose lock socket.io@* /home/pitambar/.npm/141fbf03-socket-io.lock
+32 silly lockFile d8bf140d-fs fs@*
+33 verbose lock fs@* /home/pitambar/.npm/d8bf140d-fs.lock
+34 silly lockFile c306bdaa-express-3-4-4 express@~3.4.4
+35 verbose lock express@~3.4.4 /home/pitambar/.npm/c306bdaa-express-3-4-4.lock
+36 silly addNameRange { name: 'socket.io', range: '*', hasData: false }
+37 silly addNameRange { name: 'fs', range: '*', hasData: false }
+38 silly addNameRange { name: 'express', range: '>=3.4.4-0 <3.5.0-0', hasData: false }
+39 verbose url raw fs
+40 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+41 verbose url resolved https://registry.npmjs.org/fs
+42 info trying registry request attempt 1 at 15:14:35
+43 http GET https://registry.npmjs.org/fs
+44 verbose url raw express
+45 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+46 verbose url resolved https://registry.npmjs.org/express
+47 info trying registry request attempt 1 at 15:14:35
+48 verbose etag "2MKIS1W85XR7B8187LX55UML2"
+49 http GET https://registry.npmjs.org/express
+50 verbose url raw socket.io
+51 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+52 verbose url resolved https://registry.npmjs.org/socket.io
+53 info trying registry request attempt 1 at 15:14:35
+54 verbose etag "ECCBRKTM3WT90ORS66LPR0P4A"
+55 http GET https://registry.npmjs.org/socket.io
+56 http 404 https://registry.npmjs.org/fs
+57 silly registry.get cb [ 404,
+57 silly registry.get   { date: 'Sat, 02 Aug 2014 09:44:36 GMT',
+57 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 silly registry.get     etag: '"5BQZWWEVHQEXWCPP0V3B1TODR"',
+57 silly registry.get     'content-type': 'application/json',
+57 silly registry.get     'cache-control': 'max-age=0',
+57 silly registry.get     'content-length': '397',
+57 silly registry.get     'accept-ranges': 'bytes',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     age: '0',
+57 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+57 silly registry.get     'x-cache': 'MISS',
+57 silly registry.get     'x-cache-hits': '0',
+57 silly registry.get     'x-timer': 'S1406972676.431552,VS0,VE129',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     connection: 'close' } ]
+58 silly addNameRange number 2 { name: 'fs', range: '*', hasData: true }
+59 silly addNameRange versions [ 'fs', [] ]
+60 error TypeError: Cannot read property 'latest' of undefined
+60 error     at next (/usr/local/lib/node_modules/npm/lib/cache.js:692:35)
+60 error     at /usr/local/lib/node_modules/npm/lib/cache.js:680:5
+60 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+60 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+60 error     at Object.oncomplete (fs.js:97:15)
+61 error If you need help, you may report this *entire* log,
+61 error including the npm and node versions, at:
+61 error     <http://github.com/isaacs/npm/issues>
+62 error System Linux 3.0.0-12-generic
+63 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+64 error cwd /home/pitambar/Coding/projects node juno/helloworldopen
+65 error node -v v0.11.11-pre
+66 error npm -v 1.3.23
+67 verbose exit [ 1, true ]

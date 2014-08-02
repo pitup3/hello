@@ -1,0 +1,38 @@
+{
+	  "name": "helloworldopen",
+	  "version": "1.0.0",
+	  "description": "OpenShift Sample Application",
+	  "keywords": [
+	    "OpenShift",
+	    "Node.js",
+	    "application",
+	    "openshift"
+	  ],
+	  "author": {
+	    "name": "OpenShift",
+	    "email": "pitambarp3@gmail.com",
+	    "url": "http://www.openshift.com/"
+	  },
+	  "homepage": "http://www.openshift.com/",
+	  "repository": {
+	    "type": "git",
+	    "url": "https://github.com/openshift/origin-server"
+	  },
+
+	  "engines": {
+	    "node": ">= 0.6.0",
+	    "npm": ">= 1.0.0"
+	  },
+
+	  "dependencies": {
+	    "express": "3.2.6",
+		"socket.io":"*",
+		"fs":"*",
+		"jade": "*"
+	  },
+	  "devDependencies": {},
+	  "bundleDependencies": [],
+
+	  "private": true,
+	  "main": "server.js"
+	}
