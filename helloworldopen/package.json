@@ -5,7 +5,7 @@
   "bundleDependencies": [],
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "engines": {
 	    "node": ">= 0.6.0",
